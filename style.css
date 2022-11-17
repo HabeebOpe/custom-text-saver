@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        min-width: 300px;
+        min-height: 100vh;
+        font-family: 'PT Sans', sans-serif;
+}
+#wrapper{
+        width: 280px;
+        height: auto;
+        background-color: gold;
+        border-radius: 5px;
+        padding: 10px;
+        box-sizing: border-box;
+}
+#input-el{
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        outline: none;
+        font-size: 15px;
+        height: 50px;
+}
+#input-btn{
+        width: 100%;
+        padding: 10px;
+        background-color: dodgerblue;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        border: none;
+        cursor: pointer;
+        margin-top: 7px;
+        border-radius: 5px;
+}
+ul{
+        list-style: none;
+        padding-left: 0;
+}
+li{
+        margin-top: 5px;
+}
+a{
+        color: dodgerblue;
+}
